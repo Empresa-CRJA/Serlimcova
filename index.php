@@ -1,83 +1,8 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Serlimcova | Inicio</title>
-		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-		<link rel="shortcut icon" href="images/serlim.ico"/>
-		<link rel="icon" href="images/serlim.ico" type="image/x-icon"/>
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="js/jquery.min.js"></script>
-		<!-- Custom Theme files -->
-		<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-		<!-- Custom Theme files -->
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<meta name="google-site-verification" content="b-Git031XRAcUu68qIM4WhocSbouwbemjCPp3FwQRJo" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-		<meta http-equiv="content-type" content="text/html"/>
-		<meta name="Author" content="Edsel Barbosa Gonzalez" />
-		<meta name="description" content="Servicios de Limpieza Colima - Villa de Alvarez"/>
-		<meta property="og:description" content="Limpieza, desmonte y fumigacion de terrenos, poda y tala de arboles, y mas para tu terreno."/>
-		<meta property="og:locale" content="es_ES"/>
-		<meta property="og:type" content="website"/>
-		<meta property="og:image" content="http://serlimcova.mx/images/facebook.png"/>
-		<meta property="og:url" content="http://serlimcova.mx/"/>
-		<meta property="og:site_name" content="Serlimcova.mx"/>
-		<meta property="og:title" content="Inicio"/>
-		<meta property="article:publisher" content="http://www.facebook.com/Serlimcova"/>
-		<meta property="fb:app_id" content="190216514498663"/>
-		<meta property="fb:admins" content="19770587706011"/>
-		<meta HTTP-EQUIV="Window-target" CONTENT="_top"/>
-		<meta NAME="robots" CONTENT="all | index | follow"/>
-		<meta name="GENERATOR" content="Sublime Text2"/>
-		<meta http-equiv="expires" content="-1"/>
-		<META NAME="Revisit" CONTENT="1 day"/>
-		<META NAME="Distribution" CONTENT="Global"/>
-		<meta name="copyright" content="Copyright Edsel Barbosa Gonzalez 2015 - Todos los derechos reservados"/>
-		<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css"/>
-		<META NAME="Date" CONTENT="Feb 21, 2015"/>
-		<meta name="google-translate-customization" content="85de5eddbde047bc-caee8c3eed2309a2-g37bf072e0fbc0e2f-d"/>
-		<meta name="keywords" content="limpieza, desmonte, basura, terrenos, monte, arboles, pasto, fumigacion colima, serlimcova"/>
-		<link rel="canonical" href="http://serlimcova.mx/" />
-		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); }</script>
-		<!--webfont-->
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-	 	<script src="js/responsiveslides.min.js"></script>
-	 	<script>
-		    $(function () {
-	      	$("#slider").responsiveSlides({
-	      		auto: true,
-		      	speed: 500,
-		        namespace: "callbacks",
-		        pager: true,
-      			});
-		    });
-	  </script>
-	</head>
-	<body>
-		<!-- header-section-starts -->
-		<div class="header">
-			<div class="container">
-				<div class="logo">
-					<a href="index.html"><img src="images/Propuesta3.png" alt="" /></a>
-				</div>
-				<div class="tollfree">
-					<ul>
-						<li><i class="phone"></i></li>
-						<li><p class="call">Llamanos :</p>
-						<p>(312) 31-4-53-26</p></li>
-					</ul>
-				</div>
-				<div class="clearfix"></div>
-				<div class="navigation">
-				 <div class="navigation-bar">
-					<span class="menu"></span>
-					<div class="top-menu">
-						<ul>
-							<li><a class="active" href="index.html">Inicio</a></li>
-							<li><a href="about.html">Acerca</a></li>
-							<li><a href="servicios.html">Servicios</a></li>
-							<li><a href="contact.html">Contacta</a></li>
+<?php include('php/config.php');include('Vistas/head.php'); ?>
+							<li><a class="active" href="index">Inicio</a></li>
+							<li><a href="about">Acerca</a></li>
+							<li><a href="servicios.php">Servicios</a></li>
+							<li><a href="contact">Contacta</a></li>
 							<div class="clearfix"></div>
 						</ul>
 					</div>
@@ -100,19 +25,19 @@
 			  <div class="callbacks_container">
 			      <ul class="rslides" id="slider">
 			         <li>
-						 <img src="images/2014-03-22 09.24.55.jpg" alt=""/>
+						 <img src="images/2014-03-22 09.24.55.jpg" alt="Poda de pasto"/>
 						  <div class="caption">
 							<h2>Poda de pastos en casa habitación</h2>
 						  </div>
 			         </li>
 			         <li>
-						 <img src="images/1.jpg" alt=""/>
+						 <img src="images/1.jpg" alt="Cuidado"/>
 						  <div class="caption">
 							<h2>El cuidado empieza desde las cosas mas pequeñas</h2>
 						  </div>
 			         </li>
 			         <li>
-						 <img src="images/cargand.escomb .jpg" alt=""/>
+						 <img src="images/cargand.escomb .jpg" alt="Escombro"/>
 						  <div class="caption">
 							<h2>Tiramos escombro desde cualquier parte de la zona conurbada</h2>
 						  </div>
@@ -131,7 +56,7 @@
 					<div class="about-section-bottom">
 						<div class="col-md-6 what-we-do">
 							<h4>Que hacemos nosotros</h4>
-							<img src="images/desmonte.jpg" alt="" />
+							<img src="images/desmonte.jpg" alt="Desmonte" />
 							<p>Podar los árboles y el monte de su casa o terreno, asimismo retirarle todo lo que le estorbe y le ocasione acumulación de bacterias dañinas, tirándole tanto basura como tiliches, ramas, cacharros, o hacer limpieza de pisos, baños, vidrios y pilas de sus casas abandonadas, dejándolas listas para ser habitadas o vendidas. Lo más importante es ayudar a combatir el dengue y así poder cuidar la población, además de mejorar el medio ambiente.
 							</p>
 						</div>
@@ -213,7 +138,7 @@
 			  <div class="callbacks_container">
 			      <ul class="rslides" id="slider1">
 			         <li>
-						 <img src="images/side-2.jpg" alt=""/>
+						 <img src="images/side-2.jpg" alt="Pradera"/>
 						  <div class="caption caption1">
 							<h2>Tendencia a hacer las cosas bien</h2>
 						  </div>
@@ -251,13 +176,13 @@
 						</div>
 						<div class="col-md-4 service-section-grid-2">
 							<h3>Visión</h3>
-							<img src="images/p2.jpg" alt="" />
+							<img src="images/p2.jpg" alt="Desmonte" />
 							<h4>Esperamos ser una de las principales empresas a nivel estatal.</h4>
 							<p>Dedicadas a salvaguardar la salud de los colimenses mediante la oportuna recolección de basura, demosnte de terrenos, entre otros servicios de limpieza.</p>
 						</div>
 						<div class="col-md-4 service-section-grid-3">
 							<h3>Objetivo general</h3>
-							<img src="images/r2.jpg" alt="" />
+							<img src="images/r2.jpg" alt="Ramas" />
 							<h4>Nosotros hemos cambiado la forma de como hacer los trabajos.</h4>
 							<p>Simplemente la experiencia, calidad, y entrega, dejan huella, hable y compruebe.</p>
 						</div>
@@ -265,46 +190,4 @@
 					</div>
 				</div>
 		    </div>
-			<div class="get-in-touch">
-				<div class="container">
-					<div class="col-md-3 gin">
-						<h3>Síguenos</h3>
-						<p>Búscanos en nuestra página mediante la red social</p>
-						<div class="social-icons">
-							<a href=""><i class="facebook"></i></a>
-						</div>
-					</div>
-					<div class="col-md-3 address">
-						<h3>Dirección</h3>
-						<address>
-							<p>#324 Cándido Aguilar,
-							<p>Villa de Álvarez, Colima, México,</p>
-							<p>C.P. 28984.</p>
-							<p class="phone"><span>Celular</span>: (044)312 127 3093</p>
-							<span class="phone">E-mail :<a href="mail-to:serlimcova@outlook.com">serlimcova@outlook.com</a></span>
-						</address>
-					</div>
-					<div class="col-md-6 dal">
-						<h3>Estemos en contacto</h3>
-						<input type="text" class="text" value="Nombre" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'First Name';}">
-						<input type="text" class="text" value="Apellido" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Last Name';}">
-						<input type="text" class="text" value="E-mail" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'E-mail';}">
-						<input type="text" class="text" value="Telefono" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Phone';}">
-						<textarea onfocus="if(this.value == 'Your Message') this.value='';" onblur="if(this.value == '') this.value='Your Message';" >Tu mensaje</textarea>
-						<input type="submit" value="ENVIAR">
-					</div>
-					<div class="clearfix"></div>
-				</div>
-			</div>
-	    </div>
-		<!-- footer-section -->
-		<div class="footer">
-			<div class="container">
-				<div class="copyright text-center">
-					<p>&copy; 2015 Todos los derechos reservados | Design by  <a href="http://barbosagonzalez.github.io/">  Edsel Barbosa</a></p>
-				</div>
-			</div>
-		</div>
-		<!-- footer-section -->
-	</body>
-</html>
+<?php include('Vistas/foot.php'); ?>
