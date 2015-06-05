@@ -1,7 +1,6 @@
 <?php
 define ('BASE_URL','http://serlimcova.mx/');
-function base_url($cad){
-	return BASE_URL.$cad;
+function base_url($cad){return BASE_URL.$cad;}
 /* ---------------------------------------------------------------------- */
 /*	Contact Form
 /* ---------------------------------------------------------------------- */

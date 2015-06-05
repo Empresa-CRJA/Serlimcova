@@ -1,4 +1,7 @@
-<?php include('php/config.php');include('Vistas/head.php'); ?>
+<?php 
+	session_start();
+	include('php/config.php');
+	include('Vistas/head.php'); ?>
 						<li><a href="index">Inicio</a></li>
 						<li><a href="about">Acerca</a></li>
 						<li><a href="servicios.php">Servicio</a></li>
@@ -28,27 +31,27 @@
 					<div class="contact-head text-center">
 						<h2>Contactanos</h2>
 						<span>Nos gustaría conocer tus opiniones</span>
-					</div>		
+					</div>			
 					<!-- contact-grids -->		
 					<div class="contact-grids">
-						<!--<div class="contact-map">
-							<iframe width="100%" height="185" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.in/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Lighthouse+Point,+FL,+United+States&amp;aq=4&amp;oq=light&amp;sll=26.275636,-80.087265&amp;sspn=0.04941,0.104628&amp;ie=UTF8&amp;hq=&amp;hnear=Lighthouse+Point,+Broward,+Florida,+United+States&amp;t=m&amp;z=14&amp;ll=26.275636,-80.087265&amp;output=embed"></iframe><br><small><a href="https://maps.google.co.in/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Lighthouse+Point,+FL,+United+States&amp;aq=4&amp;oq=light&amp;sll=26.275636,-80.087265&amp;sspn=0.04941,0.104628&amp;ie=UTF8&amp;hq=&amp;hnear=Lighthouse+Point,+Broward,+Florida,+United+States&amp;t=m&amp;z=14&amp;ll=26.275636,-80.087265" style="color:#8C8061;text-align:left;font-size:1em">View Larger Map</a></small>
-						</div>-->
-						<!-- contact-form -->
+		<div class="contact-map">
+			<iframe width="100%" height="185" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d941.6814246980887!2d-103.74958225393372!3d19.250782747950037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1425766167147"></iframe><br><small><a href="https://goo.gl/maps/oGp5B">View Larger Map</a></small>
+		</div>
+		<!----- contact-form ------>
 						<div class="contact-form">
 							<form>
 								<div class="contact-form-row">
 									<div>
 										<span>Nombre :</span>
-										<input type="text" class="text" value="Tu nombre aquí" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your Name here';}">
+										<input type="text" class="text" value="Tu nombre aquí" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Tu nombre aquí';}">
 									</div>
 									<div>
 										<span>Email :</span>
-										<input type="text" class="text" value="Tu Email aquí" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your Email here';}">
+										<input type="text" class="text" value="Tu email aquí" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Tu email aquí';}">
 									</div>
 									<div>
 										<span>Asunto :</span>
-										<input type="text" class="text" value="Asunto" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Subject';}">
+										<input type="text" class="text" value="Asunto" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Asunto';}">
 									</div>
 									<div class="clearfix"> </div>
 								</div>
@@ -57,10 +60,12 @@
 									<span>Mensaje :</span>
 									<textarea> </textarea>
 								</div>
-								<input type="submit" value="Enviar">
+								<input type="submit" value="send">
 							</form>
 						</div>
 						<!----- contact-form ------>
+					</div>
+					<!----- contact-grids ----->
 					</div>
 					<!----- contact-grids ----->
 			</div>
